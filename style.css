@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    padding: 0px 135px;
+}
+/* Header css started  */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 37px 0px;
+}
+
+.nav_item a {
+   display: flex;
+   text-decoration: none;
+   color: #182327;
+    text-align: center;
+    /* P3 */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+.nav_item {
+   display: flex;
+   gap: 42px;
+   padding: 42px 0px;
+}
+
+.search_button input{
+    padding: 14px 14px 14px 14px;
+    
+}
+.search_button{
+    padding: 30px 0px;
+}
+
+.account{
+    padding: 30px 0px;
+   
+}
+
+/* Header Css Eanded  */
+
+/* hero section css started  */
+
+.hero_section{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #02B5EA 0%, rgba(2, 181, 234, 0.15) 100%);
+
+}
+
+.hero_img{
+    background-image: url(img/Union.png);
+    background-repeat: no-repeat;
+}
+
+.hero-content h1{
+    color: #182327;
+
+/* H1 */
+font-family: Sentient;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: 76px; /* 108.571% */
+}
+
+.hero-content p{
+    color: #182327;
+
+/* P1 */
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+.botton{
+    padding: 15px 36px;
+    background-color: #182327;
+    color: #FFF;
+    text-align: center;
+
+    /* Button 1 */
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    border-radius: 8px;
+}
+.hero-content{
+    padding: 121px 0px 0px 97px;
+}
+
+/* hero section css ended */
+
+
+/* featured chips css started  */
+
+.title_featured_chips{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title_featured_photo{
+    margin-top: 150px;
+}
+.featured_chips_title{
+    color: #182327;
+
+/* H2 */
+font-family: Sentient;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 109.524% */
+margin-top: 150px;
+}
+
+.featureFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.featured_content h3{
+    color: #182327;
+
+    /* H3 */
+    font-family: Sentient;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 118.182% */
+}
+.featured_content p{
+    color: #5D696D;
+
+/* P3 */
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.price{
+    color: #5D696D;
+
+/* P3 */
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.secondry_botton{
+    color: #182327;
+
+/* Button 1 */
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 166.667% */
+}
+
+.buyNowButton{
+    display: flex;
+    gap: 20px;
+}
+
+/* featured chips css ended */
+
+
+/* best chips section css started */
+.title_best_chips{
+    margin-top: 150px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.title_best_chips h2{
+    color: #182327;
+text-align: center;
+
+/* H2 */
+font-family: Sentient;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 109.524% */
+}
+.title_best_chips p{
+    color: #5D696D;
+text-align: center;
+
+/* P2 */
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+
+.card_item_row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-item_row_two{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.card_botton{
+ text-align: center;
+ margin: 20px 0px;
+}
+/* best chips section css ended */
+
+/* Popular Crisps section css starded */
+.Popular_Crisps{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Popular_chips_card_2 h1{
+    color: #182327;
+
+    /* H2 */
+    font-family: Sentient;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 109.524% */
+}
+
+.slider_icon{
+    /* margin: 20px 0px; */
+    text-align: center;
+    margin-bottom: 150px;
+}
+/* Popular Crisps section css starded */
+
+
+/* testominial css starded */
+.testomonial{
+    display: flex;
+    justify-content: space-around;
+    background-color: #80E2FF;
+    align-items: center;
+}
+
+.testominial_img{
+    padding-right: 135px;
+}
+
+.tectemonial_heading h1{
+    color: #182327;
+
+/* H2 */
+font-family: Sentient;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 109.524% */
+margin-top: 197px;
+margin-left: 135px;
+}
+.client_review {
+    color: #182327;
+
+    /* Testimonial */
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 36px; /* 163.636% */
+    margin-left: 135px;
+}
+
+.tectemonial_heading{
+    padding: 120px;
+}
+
+.testomonial_flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 135px 0px 135px;
+}
+.arrow{
+    align-self: center;
+}
+
+
+/* testominial css ended */
+
+/* find store css starded */
+.find_store{
+    text-align: center;
+    background-color: #FFD36A;
+    background-image: url(img/image\ 20\ \(1\).png);
+    background-repeat: no-repeat;
+    padding: 200px;
+}
+
+.find_store h2{
+    color: #182327;
+    text-align: center;
+
+    /* H2 */
+    font-family: Sentient;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 109.524% */
+}
+.find_store p{
+    color: #182327;
+    text-align: center;
+    
+    /* P2 */
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+/* find store css ended */
+
+
+/* footer css starded */
+.footer_flex{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF7E3;
+}
+
+.footer_content{
+    padding: 135px;
+    align-items: center;
+}
+.footer_content p{
+    color: #182327;
+
+    /* P3 */
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+
+}
+
+.footer_img{
+    padding: 100px 135px 64px 0px;
+}
+/* footer css ended */
+
